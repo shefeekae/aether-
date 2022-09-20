@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+}
+.logo img{
+width: 259px;
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 300px;
+    left: 12%;
+    z-index: 2;
+    padding: 0 50px 65px 0px;
+    border-right:1px solid rgb(216, 231, 246) ;
+}
+.Menu{
+    color: white;
+    background-color: black;
+    padding: 46px 6px 32px 6px;
+    position: absolute;
+    z-index: 2;
+    left: 40%;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.Menu img{
+    margin-left: 102px;
+    margin-bottom: 7px;
+    margin-right: 104px;
+}
+
+
+
+.htag{
+    position: absolute;
+    color: rgb(249, 247, 247);
+    left: 38%;
+    top: 36%;
+    font-size: 47px;
+    font-family: sans-serif;
+}
+.footer{
+    position: absolute;
+    width: 10px;
+    top: 10px;
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+}
+#sub{
+    text-align: center;
+    display: none;
+    color:white
+}
+#sub ul{
+    list-style-type: none;
+
+}
+.Menu:hover #sub{
+    display: block;
+    
+}
+
+.Menu p {
+    margin-left: 39%;
+    margin-right: -91px;
+    color: white;
+     
+}
+.Menu p:hover{
+    color: rgb(67, 167, 237);
+
+}
+#sub ul li:hover{
+    color: rgb(67, 167, 237);
+}
+div#copy-right {
+    position: absolute;
+    bottom: 15px;
+    right: -85pc;
+    color: white;
+}
+.htag span{
+    background-color: #30d209b0;
+    padding: 2px 14px;
+}
+#slide{
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    left: 57%;
+    top: 73%;
+}
+#slide span{
+    width: 20px;
+    display: inline-flex;
+    height: 20px;
+    background: white;
+    /* z-index: 3; */
+    /* position: absolute; */
+    margin: 5px;
+    border-radius: 50%;
+}
+#slide #active{
+    background-color: #20ca20;
+}
