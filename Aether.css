@@ -105,8 +105,6 @@ div#copy-right {
     display: inline-flex;
     height: 20px;
     background: white;
-    /* z-index: 3; */
-    /* position: absolute; */
     margin: 5px;
     border-radius: 50%;
 }
